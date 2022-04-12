@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A503593B280568BF00DD0B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503593A280568BF00DD0B6A /* AppDelegate.swift */; };
+		A503593D280568BF00DD0B6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503593C280568BF00DD0B6A /* SceneDelegate.swift */; };
+		A503593F280568BF00DD0B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503593E280568BF00DD0B6A /* ViewController.swift */; };
+		A5035942280568BF00DD0B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5035940280568BF00DD0B6A /* Main.storyboard */; };
+		A5035945280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5035943280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld */; };
+		A5035947280568C700DD0B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5035946280568C700DD0B6A /* Assets.xcassets */; };
+		A503594A280568C700DD0B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5035948280568C700DD0B6A /* LaunchScreen.storyboard */; };
+		A5035955280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5035954280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift */; };
+		A5035960280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503595F280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5035951280568C800DD0B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A503592F280568BF00DD0B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5035936280568BF00DD0B6A;
+			remoteInfo = Nhom1_OnlineBookStore;
+		};
+		A503595C280568C800DD0B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A503592F280568BF00DD0B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5035936280568BF00DD0B6A;
+			remoteInfo = Nhom1_OnlineBookStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5035937280568BF00DD0B6A /* Nhom1_OnlineBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nhom1_OnlineBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503593A280568BF00DD0B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A503593C280568BF00DD0B6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A503593E280568BF00DD0B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5035941280568BF00DD0B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5035944280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nhom1_OnlineBookStore.xcdatamodel; sourceTree = "<group>"; };
+		A5035946280568C700DD0B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5035949280568C700DD0B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A503594B280568C700DD0B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5035950280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nhom1_OnlineBookStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5035954280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nhom1_OnlineBookStoreTests.swift; sourceTree = "<group>"; };
+		A5035956280568C800DD0B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A503595B280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nhom1_OnlineBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503595F280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nhom1_OnlineBookStoreUITests.swift; sourceTree = "<group>"; };
+		A5035961280568C800DD0B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5035934280568BF00DD0B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503594D280568C800DD0B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5035958280568C800DD0B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A503592E280568BF00DD0B6A = {
+			isa = PBXGroup;
+			children = (
+				A5035939280568BF00DD0B6A /* Nhom1_OnlineBookStore */,
+				A5035953280568C800DD0B6A /* Nhom1_OnlineBookStoreTests */,
+				A503595E280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests */,
+				A5035938280568BF00DD0B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5035938280568BF00DD0B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5035937280568BF00DD0B6A /* Nhom1_OnlineBookStore.app */,
+				A5035950280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.xctest */,
+				A503595B280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5035939280568BF00DD0B6A /* Nhom1_OnlineBookStore */ = {
+			isa = PBXGroup;
+			children = (
+				A503593A280568BF00DD0B6A /* AppDelegate.swift */,
+				A503593C280568BF00DD0B6A /* SceneDelegate.swift */,
+				A503593E280568BF00DD0B6A /* ViewController.swift */,
+				A5035940280568BF00DD0B6A /* Main.storyboard */,
+				A5035946280568C700DD0B6A /* Assets.xcassets */,
+				A5035948280568C700DD0B6A /* LaunchScreen.storyboard */,
+				A503594B280568C700DD0B6A /* Info.plist */,
+				A5035943280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld */,
+			);
+			path = Nhom1_OnlineBookStore;
+			sourceTree = "<group>";
+		};
+		A5035953280568C800DD0B6A /* Nhom1_OnlineBookStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5035954280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift */,
+				A5035956280568C800DD0B6A /* Info.plist */,
+			);
+			path = Nhom1_OnlineBookStoreTests;
+			sourceTree = "<group>";
+		};
+		A503595E280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A503595F280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift */,
+				A5035961280568C800DD0B6A /* Info.plist */,
+			);
+			path = Nhom1_OnlineBookStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5035936280568BF00DD0B6A /* Nhom1_OnlineBookStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5035964280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStore" */;
+			buildPhases = (
+				A5035933280568BF00DD0B6A /* Sources */,
+				A5035934280568BF00DD0B6A /* Frameworks */,
+				A5035935280568BF00DD0B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nhom1_OnlineBookStore;
+			productName = Nhom1_OnlineBookStore;
+			productReference = A5035937280568BF00DD0B6A /* Nhom1_OnlineBookStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A503594F280568C800DD0B6A /* Nhom1_OnlineBookStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5035967280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStoreTests" */;
+			buildPhases = (
+				A503594C280568C800DD0B6A /* Sources */,
+				A503594D280568C800DD0B6A /* Frameworks */,
+				A503594E280568C800DD0B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5035952280568C800DD0B6A /* PBXTargetDependency */,
+			);
+			name = Nhom1_OnlineBookStoreTests;
+			productName = Nhom1_OnlineBookStoreTests;
+			productReference = A5035950280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A503595A280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A503596A280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStoreUITests" */;
+			buildPhases = (
+				A5035957280568C800DD0B6A /* Sources */,
+				A5035958280568C800DD0B6A /* Frameworks */,
+				A5035959280568C800DD0B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A503595D280568C800DD0B6A /* PBXTargetDependency */,
+			);
+			name = Nhom1_OnlineBookStoreUITests;
+			productName = Nhom1_OnlineBookStoreUITests;
+			productReference = A503595B280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A503592F280568BF00DD0B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Huynh Thu";
+				TargetAttributes = {
+					A5035936280568BF00DD0B6A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A503594F280568C800DD0B6A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A5035936280568BF00DD0B6A;
+					};
+					A503595A280568C800DD0B6A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A5035936280568BF00DD0B6A;
+					};
+				};
+			};
+			buildConfigurationList = A5035932280568BF00DD0B6A /* Build configuration list for PBXProject "Nhom1_OnlineBookStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A503592E280568BF00DD0B6A;
+			productRefGroup = A5035938280568BF00DD0B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5035936280568BF00DD0B6A /* Nhom1_OnlineBookStore */,
+				A503594F280568C800DD0B6A /* Nhom1_OnlineBookStoreTests */,
+				A503595A280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5035935280568BF00DD0B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503594A280568C700DD0B6A /* LaunchScreen.storyboard in Resources */,
+				A5035947280568C700DD0B6A /* Assets.xcassets in Resources */,
+				A5035942280568BF00DD0B6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503594E280568C800DD0B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5035959280568C800DD0B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5035933280568BF00DD0B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503593F280568BF00DD0B6A /* ViewController.swift in Sources */,
+				A5035945280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld in Sources */,
+				A503593B280568BF00DD0B6A /* AppDelegate.swift in Sources */,
+				A503593D280568BF00DD0B6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503594C280568C800DD0B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5035955280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5035957280568C800DD0B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5035960280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5035952280568C800DD0B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5035936280568BF00DD0B6A /* Nhom1_OnlineBookStore */;
+			targetProxy = A5035951280568C800DD0B6A /* PBXContainerItemProxy */;
+		};
+		A503595D280568C800DD0B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5035936280568BF00DD0B6A /* Nhom1_OnlineBookStore */;
+			targetProxy = A503595C280568C800DD0B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5035940280568BF00DD0B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5035941280568BF00DD0B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5035948280568C700DD0B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5035949280568C700DD0B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5035962280568C800DD0B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5035963280568C800DD0B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5035965280568C800DD0B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5035966280568C800DD0B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5035968280568C800DD0B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nhom1_OnlineBookStore.app/Nhom1_OnlineBookStore";
+			};
+			name = Debug;
+		};
+		A5035969280568C800DD0B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nhom1_OnlineBookStore.app/Nhom1_OnlineBookStore";
+			};
+			name = Release;
+		};
+		A503596B280568C800DD0B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nhom1_OnlineBookStore;
+			};
+			name = Debug;
+		};
+		A503596C280568C800DD0B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nhom1_OnlineBookStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Nhom1-OnlineBookStoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nhom1_OnlineBookStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5035932280568BF00DD0B6A /* Build configuration list for PBXProject "Nhom1_OnlineBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5035962280568C800DD0B6A /* Debug */,
+				A5035963280568C800DD0B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5035964280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5035965280568C800DD0B6A /* Debug */,
+				A5035966280568C800DD0B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5035967280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5035968280568C800DD0B6A /* Debug */,
+				A5035969280568C800DD0B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A503596A280568C800DD0B6A /* Build configuration list for PBXNativeTarget "Nhom1_OnlineBookStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A503596B280568C800DD0B6A /* Debug */,
+				A503596C280568C800DD0B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5035943280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5035944280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodel */,
+			);
+			currentVersion = A5035944280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodel */;
+			path = Nhom1_OnlineBookStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A503592F280568BF00DD0B6A /* Project object */;
+}

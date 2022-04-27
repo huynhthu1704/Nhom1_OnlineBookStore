@@ -16,6 +16,9 @@
 		A503594A280568C700DD0B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5035948280568C700DD0B6A /* LaunchScreen.storyboard */; };
 		A5035955280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5035954280568C800DD0B6A /* Nhom1_OnlineBookStoreTests.swift */; };
 		A5035960280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503595F280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift */; };
+		A59832FC2818B20100DAC68A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59832FB2818B20100DAC68A /* CategoryViewController.swift */; };
+		A59832FE2818B21900DAC68A /* ListBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59832FD2818B21900DAC68A /* ListBookViewController.swift */; };
+		A59833002818B46700DAC68A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59832FF2818B46700DAC68A /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		A503595B280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nhom1_OnlineBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A503595F280568C800DD0B6A /* Nhom1_OnlineBookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nhom1_OnlineBookStoreUITests.swift; sourceTree = "<group>"; };
 		A5035961280568C800DD0B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59832FB2818B20100DAC68A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		A59832FD2818B21900DAC68A /* ListBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBookViewController.swift; sourceTree = "<group>"; };
+		A59832FF2818B46700DAC68A /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,13 @@
 		A5035939280568BF00DD0B6A /* Nhom1_OnlineBookStore */ = {
 			isa = PBXGroup;
 			children = (
-				A503593A280568BF00DD0B6A /* AppDelegate.swift */,
+				A503596E28056E3A00DD0B6A /* System files */,
 				A503593C280568BF00DD0B6A /* SceneDelegate.swift */,
 				A503593E280568BF00DD0B6A /* ViewController.swift */,
 				A5035940280568BF00DD0B6A /* Main.storyboard */,
-				A5035946280568C700DD0B6A /* Assets.xcassets */,
-				A5035948280568C700DD0B6A /* LaunchScreen.storyboard */,
-				A503594B280568C700DD0B6A /* Info.plist */,
-				A5035943280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld */,
+				A59832FB2818B20100DAC68A /* CategoryViewController.swift */,
+				A59832FF2818B46700DAC68A /* BookDetailViewController.swift */,
+				A59832FD2818B21900DAC68A /* ListBookViewController.swift */,
 			);
 			path = Nhom1_OnlineBookStore;
 			sourceTree = "<group>";
@@ -129,6 +134,18 @@
 				A5035961280568C800DD0B6A /* Info.plist */,
 			);
 			path = Nhom1_OnlineBookStoreUITests;
+			sourceTree = "<group>";
+		};
+		A503596E28056E3A00DD0B6A /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				A503593A280568BF00DD0B6A /* AppDelegate.swift */,
+				A5035946280568C700DD0B6A /* Assets.xcassets */,
+				A5035948280568C700DD0B6A /* LaunchScreen.storyboard */,
+				A503594B280568C700DD0B6A /* Info.plist */,
+				A5035943280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld */,
+			);
+			name = "System files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59832FC2818B20100DAC68A /* CategoryViewController.swift in Sources */,
+				A59832FE2818B21900DAC68A /* ListBookViewController.swift in Sources */,
 				A503593F280568BF00DD0B6A /* ViewController.swift in Sources */,
 				A5035945280568BF00DD0B6A /* Nhom1_OnlineBookStore.xcdatamodeld in Sources */,
+				A59833002818B46700DAC68A /* BookDetailViewController.swift in Sources */,
 				A503593B280568BF00DD0B6A /* AppDelegate.swift in Sources */,
 				A503593D280568BF00DD0B6A /* SceneDelegate.swift in Sources */,
 			);

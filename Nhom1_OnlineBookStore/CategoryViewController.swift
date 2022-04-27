@@ -1,19 +1,23 @@
 //
-//  ViewController.swift
+//  CategoryViewController.swift
 //  Nhom1_OnlineBookStore
 //
-//  Created by Huynh Thu on 2022-04-12.
+//  Created by Huynh Thu on 2022-04-26.
 //  Copyright © 2022 Huynh Thu. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func didTapButton() {
+       
     }
 
 }
-
